@@ -153,6 +153,6 @@ while True:
 
         return f"{'منفی' if is_negative else ''}{'و'.join(num_to_word_list)}"
 
-    number = int(input("enter the number"))
+    number = int(input("...لطفا عدد را وارد کنید"))
     res = convertor(number)
     print(res)
